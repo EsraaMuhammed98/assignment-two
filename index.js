@@ -33,14 +33,16 @@ var authorDom = document.getElementById('author');
 ]
  
 
-var qouteResult =Math.floor(Math.random()*qoutes.length ); 
-var randomData=qoutes[qouteResult];
-     quoteDom.innerHTML = randomData.qoute 
+var qouteResult =Math.floor(Math.random()*qoutes.length +1); 
+
+ 
+   var randomData=qoutes[qouteResult];
+   quoteDom.innerHTML = randomData.qoute 
    authorDom.innerHTML = randomData.author 
  
- 
- 
- }
+
+
+}
 
  
  
